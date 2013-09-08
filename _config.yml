@@ -1,34 +1,28 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
-#Comment out url when working locally to resolve base urls correctly
-url: http://jekyll.gtat.me
+title:            FLATOUT
+tagline:          timing
+description:      professional timing apps
+
+#url: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           FLATOUT 
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        ctrunsthis        
-  github:         coletownsend       
-  instagram:      ctrunsthis     
-  dribbble:       coletownsend
-  disqus:         balzac
+  bio:            "FLATOUT timigin"
+  email:          
+  twitter:        flatout 
+  github:         
+  instagram:      
+  dribbble:       
+  disqus:         
   # Plug in your disqus shortname!
   
 
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
-  - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
-    external: true
+  - title: Blog 
+    url: /articles
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York

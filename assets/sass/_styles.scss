@@ -135,7 +135,8 @@ input {
 }
 
 .bb {
-    border-bottom: 2px solid $link;
+  font-weight: bold;
+    //border-bottom: 2px solid $link;
 }
 
 .pad-top {
@@ -378,7 +379,7 @@ header.site-header nav {
                 }
             }
             
-            a:hover:before {
+            /*a:hover:before {
                 content:'...';
                 color: $grey-light;
                 font-family: $sans;
@@ -404,10 +405,15 @@ header.site-header nav {
                 @include transit;
 
             }
+            */
             
             h1 {
                 font-size: $fs3;
-                font-style: italic;
+                letter-spacing: -0.05em;
+                //font-style: italic;
+                a {
+                  color: $black;
+                }
             }
         }
         
@@ -455,7 +461,9 @@ header.site-header nav {
     }
     
     h1 {
-        font-style: italic;
+        //font-style: italic;
+        letter-spacing: -0.05em;
+        font-weight: bold;
     }
     
     h1, h2, h3, h4, h5 {
