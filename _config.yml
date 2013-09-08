@@ -2,13 +2,13 @@ title:            FLATOUT
 tagline:          timing
 description:      professional timing apps
 
-#url: http://jekyll.gtat.me
+url: http://flatout.es
 
 # Owner/author information
 owner:
-  name:           FLATOUT 
-  avatar:         avatar.png
-  bio:            "FLATOUT timigin"
+  name:           FLATOUT
+  avatar:         
+  bio:            "FLATOUT timing"
   email:          
   twitter:        flatout 
   github:         
