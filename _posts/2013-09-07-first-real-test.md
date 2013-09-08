@@ -8,9 +8,9 @@ image:
   feature: flatout_test_in_car.jpg
 ---
 
-I've been prototyping FLATOUT since 6 months ago or so during my train time(*). FLATOUT is a timming application with you can measure your times in the track. Basically it uses GPS to record the times a car (or whatever you use) passes by different checkpoints. Simple as that.
+I've been prototyping FLATOUT the last 6 months or so during my train time(*). FLATOUT is a timming application with you can measure your times in the track. Basically it uses GPS to record the times a car (or whatever you use) passes by different checkpoints. Simple as that.
 
-And yes, I know there are a lot of timming applications out there, better than this, probably more complete, with more features, more users, more tracks, more everything... I dont really mind, I enjoy creating and __testing__ mine.
+And yes, I know there are a lot of timing applications out there, better than this, probably more complete, with more features, more users, more tracks, more everything... I dont really mind, I enjoy creating and __testing__ mine.
 
 One of the key points of this application is (or should be) the accuracity. It doesn't mind if the application looks good, it's easy to use if it's innacurate. Luckily I have a lot of experience working with GPS and precision stuff (from [agricgear, an easy GPS guidance tool for farmers](http://agricgear.com/)) and a lot of knoledge from farming world can be applied to race cars.
 
@@ -28,7 +28,7 @@ The results were better than expected. Taking into account that FLATOUT can't me
 
 Next step: try it on a proper track (at least with some corners :)
 
-
+If you are interested, there is some info in the [organizers website](http://fuerzalibre.es/) about the drag race days.
 
 
 (*) I spend like 4 hours per week commuting in train so I use that time to do something productive. Actually those 4 hours are the most productive of the whole week (yep, I don't have internet there)
