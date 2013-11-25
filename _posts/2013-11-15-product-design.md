@@ -66,7 +66,7 @@ We went to Kotar to test it and it was really fun. At some point one the the guy
 the app started to celebrate each time he improved a time (because of that I decided to highlight
 the numbers a lot on important moments).
 
-Ok, we are almost there, the numbers could be read, it's easy to see what's happening but there was
+Ok, we are almost there, the numbers could be read, it's easy to see what's happening but it was
 hard to know when the key moments were (best lap time, intermediate time)...
 
 You can see it working in [this visualizations](http://javisantana.com/kotar) I created with the data I collected. That
@@ -81,12 +81,12 @@ So this is the one I'm working on, it's still not finished, I need to work more 
 happen on key moments but you can see it hasn't changed a lot:
 
  - I moved delta to the first place and put it really big
- - Added a green/red bar to see if it's easy to "read" during you are driving if you are improving
-   the lap. Race cars, including F1 ones, use a led bar with lights which shows when they are
+ - Added a bar at the top of the screen (green/red) to see if it's easy to "read" while you are driving if you are improving
+   the lap. Race cars, including F1 ones, use a LED bar on the steering wheel which shows when they are
    reaching rev limit (*). The same is used in farming, GPS guidance systems use more of less [the same
    approach](https://www.google.com/search?espv=210&es_sm=119&source=lnms&tbm=isch&sa=X&ei=R1GSUpjALYHt0gWIooD4BQ&ved=0CAcQ_AUoAQ&biw=1440&bih=779&q=gps%20light%20bar).
- - Removed all the text. You don't need to read what is each thing to know what it is (less noise)
- - Added some bar graph to the speed. I don't think is gonna work but I wanted to play with d3
+ - Removed all the text. You don't need to read what each thing id to know what it is (less noise)
+ - Added some bar graph to the speed. I don't think it is going to work but I wanted to play with d3
   (the javascript library I use to develop the UI). 
 
 I thought about removing all the numbers and do a interface with only graphics, maybe I will give it a try.
