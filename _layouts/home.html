@@ -6,52 +6,95 @@
     margin: 0 auto;
     padding-top: 100px;
     padding: 100px 0;
-    max-width: 800px;
+    max-width: 1024px;
   }
-  #top_banner {
+  h1 {
+    font-size: 46px;
+    letter-spacing: -1.5px;
+    line-height: 1.2em;
+    font-weight: bold;
+  }
+  .feature {
     text-align: center;
+    margin-top: 100px;
+    clear: both;
   }
-  #top_banner img {
-    position: relative;
-    left: -30%;
-    max-height: 600px;
-    height: 100%;
+  .feature img {
+    max-height: 450px;
+    max-width: 585px;
   }
-  #top_banner #text {
-    position: absolute;
-    top: 22%;
-    left: 52%;
+  .feature #text {
+    float: right;
+    max-width: 350px;
     text-align: left;
-    max-width: 500px;
   }
-  #top_banner h1 {
-    font-size: 37px;
+  .feature h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+  }
+  .feature p {
+    font-size: 20px;
     font-weight: normal;
-    font-size: 25px;
     line-height: 1.5em;
     margin-top: 1em;
   }
-  #top_banner h1 span {
+  .feature p span {
     letter-spacing: 3px;
   }
-  #top_banner h1 a.strong {
+  .feature p a.strong {
     font-weight: bold;
+  }
+
+  .button {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 1em;
+    padding: .75em 1em;
+    color: white;
+    background: #1a7de6;
+    cursor: auto;
   }
 </style>
 
 <div id='bump'>
   <div id="home">
-    <div id="top_banner">
-      <img src="images/flatout_nexus5.png" />
+    <h1><span>FLATOUT</span> is an android app that allows you to record your lap time in the track focused on providing high accuracity and post race analysis</h1>
+
+    <div class="feature">
       <div id="text">
-        <h1><span>FLATOUT</span> is an android app that allows you to record your lap time in the track focused on providing high accuracity and post race analysis</h1>
-        <h1>we are currently testing it, if you want to give it a try <a href="mailto:flatout.timing@gmail.com">write us</a></h1>
-        <h1><a class="strong" href="http://youtu.be/oXnMjxfjNJ0">watch the video</a></h1>
-        </h1>
+        <h2>Timing android app</h2>
+        <p>The application shows in a clear and simple way the information you need you need to know in the track. It also registers the data to analyze it later.</p>
+        <p>The application can be connected to an external GPS for better accuracity</p>
+        <p>you can see it working in <a class="strong" href="http://youtu.be/oXnMjxfjNJ0">this video</a></p> 
+        <!--<p>we are currently testing it, if you want to give it a try <a href="mailto:flatout.timing@gmail.com">write us</a></p>-->
       </div>
+      <img src="images/flatout_nexus5.png" />
     </div>
-    <div id="video">
+
+    <div class="feature">
+      <div id="text">
+        <h2>On track analysis</h2>
+        <p>You can see the data registered by the timing app in real time just after you get out the car, compare it with other session laps, analyze where you lost that second</p>
+        <p>It works in any android tablet or iPad</p>
+      </div>
+      <img src="images/flatout_ipad.png" />
     </div>
+
+    <div class="feature">
+      <div id="text">
+        <h2>Detailed analysis</h2>
+        <p>Web application allows you to analyze in detail the day and compare with your best lap and with other racer laps</p>
+        <p>You can share your laps with other people</p>
+      </div>
+      <img src="images/flatout_web.png" />
+    </div>
+
+
+    <a style="margin-top: 80px" href="http://eepurl.com/U462v" class="button">Contact us to give it a try</a>
+
+
+
   </div>
 </div>
 
